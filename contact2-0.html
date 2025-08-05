@@ -4,24 +4,25 @@
   <meta charset="UTF-8">
   <title>Contact me chat</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstra..." rel="stylesheet">
-  <style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">  <style>
           body{
-            background-image: url(city.jpg);
+            background-image: url(cityLights.gif);
             background-repeat: no-repeat;
             background-size: 100%;
+            height: 1200px;
+          }
+          .mb-3 label{
+            color: white;
+          }
+          .white-text{
+            color: white;
           }
           
         </style>
 </head>
-<h1> Hello my name is charles milburn here are some things about me</h1>
+<h1 class="white-text"> Hello my name is charles milburn here are some things about me</h1>
 <body>
-  <video width="100%" controls>
-  <source src="" controls>
-  
-</video>
-<source src="https://www.pinterest.com/pin/839006605561104586/">;
-</video>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -49,14 +50,18 @@
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
         </ul>
+        
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
-    <h1> I like being chill listening to music</h1>i love sleeping and being outside</h2>
-    <h3> and that's all mostly thank you!</h3>
     </div>
+    <!--MOVE THIS SECTION-->
+    <div class="container-fluid midsection">
+        <h1> I like being chill listening to music</h1>i love sleeping and being outside</h2>
+        <h3> and that's all mostly thank you!</h3>
+      </div>
   </nav>
 
   
@@ -64,7 +69,7 @@
 
   <!-- Contact Form -->
   <div class="container">
-    <h2>Contact Me</h2>
+    <h2 class="white-text">Contact Me</h2>
     <form action="/submit_contact.php" method="post">
       <div class="mb-3">
         <label for="name" class="form-label">Name:</label>
@@ -79,8 +84,17 @@
         <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
       </div>
       <input type="submit" class="btn btn-primary" value="Send Message">
+      <h4 class="white-text">
+        my favorite football team are the ravens
+      </h4>
+      <h5 class="white-text">
+        and my favorite sports are basketball and football
+        <stylecolor class="css">red</stylecolor>
+      </h5>
     </form>
   </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstra..."></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <img src="channels4_profile.jpg" alt="" width="500" height="500">
 </body>
 </html>
